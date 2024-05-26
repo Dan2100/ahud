@@ -141,7 +141,7 @@ event HudSpyDisguiseFadeIn
 	RunEvent HudSpyDisguiseChanged	0
 	Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1	
 	Animate PlayerStatusClassImage			Alpha		"255"			Linear 0.0 0.0
-	Animate classmodelpanel					Position	"15 r200"		Linear 0.0 0.0
+	Animate HudPlayerClass					Position	"0 0"		Linear 0.0 0.0
 }
 
 event HudSpyDisguiseFadeOut
@@ -149,5 +149,5 @@ event HudSpyDisguiseFadeOut
 	RunEvent HudSpyDisguiseChanged	0
 	Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.9 0.1	
 	Animate PlayerStatusClassImage			Alpha		"0"				Linear 0.0 0.0
-	Animate classmodelpanel					Position	"9999 9999"		Linear 0.0 0.0
+	Animate HudPlayerClass				Position	"9999 9999"		Linear 0.0 0.0
 }
