@@ -1116,7 +1116,7 @@
 		"enabled"				"1"
 		"xpos"					"c-125"
 		"ypos"					"5"
-		"zpos"					"2"
+		"zpos"					"3"
 		"wide"					"250"
 		"tall"					"80"
 	}
@@ -1465,7 +1465,7 @@
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"0"
-		"zpos"					"3"
+		"zpos"					"2"
 		"wide"					"f0"
 		"tall"					"f0"
 	}
