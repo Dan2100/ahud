@@ -227,12 +227,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"-24"
-		"ypos"			"0"
+		"xpos"			"10"
+		"ypos"			"21"
 		"zpos"			"5"
 		"wide"			"78"
 		"tall"			"15"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"	"center"
@@ -241,12 +241,6 @@
 		"wrap"			"0"
 		"font"			"aRegular10"
 		"fgcolor"		"ahudWhite"
-
-		if_match
-		{
-			"xpos"					"c-44"
-			"ypos"					"21"
-		}
 	}
 
 	"ServerTimeLimitLabelBG"
